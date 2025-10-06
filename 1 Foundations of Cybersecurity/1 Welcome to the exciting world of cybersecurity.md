@@ -21,7 +21,6 @@
 ## Feedback
 
 Good that videos can be fast-forwarded, and the transcript has highlights. Lets you drastically speed up learning.
-
 Definitely focused more on the industry than any actual learning. For example, individual's stories, what a security analyst does, skills needs, etc. However, it is a well-rounded introduction.
 
 Nice animations / graphics / video editing etc. All feels high quality.
