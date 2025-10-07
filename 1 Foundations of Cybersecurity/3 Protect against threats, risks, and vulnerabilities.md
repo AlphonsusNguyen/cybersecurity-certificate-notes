@@ -1,3 +1,10 @@
+## Purpose of security framework
+ - Protecting personally identifiable information, known as PII
+ - Securing financial information
+ - Identifying security weaknesses
+ - Managing organizational risks
+ - Aligning security with business goals
+   
 ## Security framework core components
 
 1. Identify & document security goals
@@ -5,7 +12,7 @@
 3. Implementing strong security processes
 4. Monitoring & communicating results
 
-## CIA triad (foundational model)
+## CIA triad (a foundational model that informs how organizations consider risk when setting up systems and security policies)
 
 - Confidentiality (info is private)
 - Integrity (info is correct)
@@ -16,7 +23,7 @@
 
 ## Cybersecurity Framework AKA NIST CSF
 
-- Voluntary framework with standards, guidelines, and best practices to manage cybersecurity risk.
+- Voluntary framework with standards, guidelines, and best practices to manage cybersecurity risk (short and long-term).
 
 There is also the Risk Management Framework (NIST RMF), FERC-NERC, FedRAMP, CIS, GDPR, PCI DSS, HIPAA, ISO SOC, etc!
 
