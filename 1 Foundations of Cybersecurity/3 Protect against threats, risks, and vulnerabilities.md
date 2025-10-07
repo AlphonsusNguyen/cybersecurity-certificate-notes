@@ -31,8 +31,8 @@ There is also the Risk Management Framework (NIST RMF), FERC-NERC, FedRAMP, CIS,
 
 All 3 essentially boil down to "don't bypass controls just because you can". So no sharing info, no tipping off friends, etc.
 
-1. Confidentiality
-2. Privacy protections
+1. Confidentiality (only authorized users can access specific assets or data)
+2. Privacy protections ( safeguarding personal information from unauthorized use. Ex: give your employees home phone to your boss after work may be against this, if not following work policy)
 3. The law
 
 ## Counterattacks
