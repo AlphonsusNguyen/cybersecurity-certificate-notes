@@ -56,7 +56,7 @@ Levels of risk:
 - Implement:
 - Assess: Determine if current controls are implemented correctly.
 - Authorise: Generating reports, developing plans, establishing milestones.
-- Monitor: Observing & maintaining controls.
+- Monitor: Aware of how systems are operating. Observing & maintaining controls.
 
 ## OWASP
 
