@@ -7,6 +7,7 @@ These describe the order of delivery and structure of data. Typical protocols us
 - HTTPS (Hypertext Transfer Protocol Secure): The actual request & response, encrypted with SSL/TLS.
 - DNS (Domain Name System): Convert URLs into IPs.
 
+*Noted that TCP isn’t limited to just two devices. It established a direct connection between two endpoints, but the underlying network infrastructure can handle routing data packets across multiple devices.
 ## Categories of network protocols
 
 - Communication
