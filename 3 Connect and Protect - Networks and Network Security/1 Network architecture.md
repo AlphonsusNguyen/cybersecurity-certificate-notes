@@ -18,7 +18,8 @@ So an example flow is device -> router -> modem -> internet -> modem -> router -
 
 ## Network models
 
-![](files/tcpip-vs-osi-models.png)
+![Uploading image.png…]()
+
 
 ### TCP/IP model
 
@@ -42,11 +43,13 @@ So an example flow is device -> router -> modem -> internet -> modem -> router -
 
 ## IPv4 packet
 
-![](files/ipv4-packet.png)
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/bac8f709-b1c0-48cc-970d-34448611a15b" />
+
 
 ## IPv4 vs IPv6 header
 
-![](files/ipv4-vs-ipv6.png)
+<img width="2350" height="1158" alt="image" src="https://github.com/user-attachments/assets/573e0777-4461-449e-b493-4412e2049234" />
+
 
 ## Feedback
 
