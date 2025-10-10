@@ -18,7 +18,8 @@ So an example flow is device -> router -> modem -> internet -> modem -> router -
 
 ## Network models
 
-![Uploading image.png…]()
+<img width="11319" height="4707" alt="image" src="https://github.com/user-attachments/assets/ae3bdb07-7f14-4201-b2d1-f5cd5df76ca9" />
+
 
 
 ### TCP/IP model
