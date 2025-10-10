@@ -32,6 +32,8 @@ So an example flow is device -> router -> modem -> internet -> modem -> router -
 3. Transport layer (TCP, UDP): Control flow of traffic, error control, permitting connections, etc.
 4. Application layer (HTTP, DNS): How the data packets will interact with receiving devices.
 
+- Common port: port 25, for e-mail, port 443, for secure internet communication, and port 20, for large file transfers.
+
 ### OSI model
 
 1. Physical layer: All the low level hardware.
