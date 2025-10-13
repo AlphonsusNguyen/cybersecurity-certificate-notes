@@ -48,3 +48,5 @@ Common attacks:
 - On-path attack: Malicious actor places themselves in the middle, and intercepts / alters data.
 - Replay attack: Malicious actor repeats / delays a packet.
 - Smurf attack: DDoS with authorised user's IP.
+  
+Firewall confifuration can prevent this kind of attack by deny connection from incoming traffic that has same IP address as the local network
