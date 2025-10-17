@@ -74,6 +74,7 @@ Similar to piping, angle brackets can send output into a file. `>` overwrites, `
 - "root user" or "superuser" can read/write/delete anything.
 - Any superuser can create new superusers.
 - `sudo` (super-user-do): Temporarily run as superuser, only available to users in the "sudoers file".
+*It is recommended to run sudo instead of using root
 - `useradd`: Add a user, e.g. `sudo useradd myusername`.
 - `userdel`: Delete a user, e.g. `sudo userdel myusername`.
 - `usermod`: Modify a user, e.g.
