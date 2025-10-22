@@ -1,13 +1,23 @@
 Limited notes here due to existing SQL knowledge.
+
 SELECT *, A,B,C FROM E,F WHERE x BETWEEN y AND 
+
 LIKE
+
 ORDER BY 
+
 DSC
+
 BETWEEN
+
 AND
+
 OR
+
 NOT operator negates a condition. This means that SQL returns all records that don’t match the condition specified in the query. Note: WHERE country <> 'USA' and WHERE country != 'USA' are the same filters as WHERE NOT country = 'USA'. 
+
 Operator: <, >, =, !, <=, >=, <>, 
+
 Note:Use quotation mark for string, but not for number
 
   ## Join
