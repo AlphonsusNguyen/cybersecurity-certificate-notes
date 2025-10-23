@@ -8,6 +8,10 @@ Types:
 - Operational: E.g. awareness training.
 - Managerial: E.g. policies, standards, procedures.
 
+## Principal of the least privilege
+A security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+Usage audit, privilege audit, account change audit are needed.
+
 ## Data related roles
 
 - Data owner: Person who can access / edit / use / destroy their info.
@@ -22,6 +26,12 @@ User accounts can often be grouped into:
 - User accounts: Employees.
 - Service accounts: For software that needs to interact with other software.
 - Privileged accounts: Admins.
+
+## Information privacy
+- Information privacy refers to the protection of unauthorized access and distribution of data.
+- Information security (InfoSec) refers to the practice of keeping data in all states away from unauthorized users.
+ Security audit is a review of an organization's security controls, policies, and procedures against a set of expectations.
+ Security assessment is a check to determine how resilient current security implementations are against threats.
 
 ## Data lifecycle
 
@@ -64,3 +74,6 @@ Manage authentication, authorization, and accountability of information (AAA fra
 There's so much effort put into the animations and created videos! It undeniably helps create a high quality, engaging experience.
 
 It's good that during the labs, commands are copyable. Typing would be pointless busywork.
+
+## Notes 
+PII: Personally identifiable information 
