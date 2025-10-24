@@ -10,6 +10,8 @@ Types:
 
 ## Principal of the least privilege
 A security concept in which a user is only granted the minimum level of access and authorization required to complete a task or function.
+Separation /Segregation of duties works in similar principal.
+
 Usage audit, privilege audit, account change audit are needed.
 
 ## Data related roles
@@ -55,8 +57,8 @@ An encryption framework that secures the exchange of information online.
 Manage authentication, authorization, and accountability of information (AAA framework).
 
 - Authentication: "Who are you?"
-  1. Knowledge: Something known.
-  2. Ownership: Something possessed.
+  1. Knowledge: Something user known.
+  2. Ownership: Something user possessed.
   3. Characteristic: Something user is.
 - Authorization: "What can you do?"
   - Separation of duties: Users should not be given perms to influence themselves.
