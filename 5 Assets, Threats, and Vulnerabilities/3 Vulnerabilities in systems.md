@@ -7,6 +7,14 @@
 
 "Zero-day" = zero days to fix it!
 
+## CI/CD process vulnerabilities
+- Risks from Third-Party Code: Regularly scan and update your dependencies. Make sure you’re using secure versions of all external components.
+- Misconfigured Permissions: Controlling Access. Ensure only authorized individuals can access and change critical pipeline elements.
+- Lack of Automated Security Testing:  Integrate automated security testing (SAST and DAST) into your CI/CD pipeline. Without tools like SAST and DAST, you are almost guaranteed to release software full of vulnerabilities that will go undetected until after it's live, leading to significantly higher costs and effort to fix.
+- Exposed Secrets:  Use secure vaults or dedicated secrets management tools to store and manage sensitive information. Enforce this practice across your team. Do not hardcode secrets like like API keys, passwords, and tokens.
+- Unsecured Build Environments: Use secure containers or virtual machines to minimize the risk of a compromised pipeline. If the servers and systems that run your pipeline are vulnerable, attackers can compromise it.
+- 
+
 ## Defense in depth
 
 Also known as the "castle approach", or swiss cheese.
@@ -33,6 +41,18 @@ The NIST National Vulnerabilities databases uses CVSS (common vulnerability scor
 
 - Under 4.0: Does not require immediate attention.
 - Over 9.0: Requires immediate addressing.
+
+## Common vulnerabilities
+Broken access control
+Cryptographic failures
+Injection
+Insecure design
+Security misconfiguration
+Vulnerable and outdated components
+Identification and authentication failures
+Software and data integrity failures
+Security logging and monitoring failures
+Server-side request forgery
 
 ## OSINT
 
