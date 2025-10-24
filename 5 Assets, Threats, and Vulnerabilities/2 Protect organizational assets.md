@@ -55,6 +55,9 @@ An encryption framework that secures the exchange of information online.
 ## Access controls
 
 Manage authentication, authorization, and accountability of information (AAA framework).
+Basic auth works by sending an identifier every time a user communicates with a web page. But not secured. Https is preferred nowadays
+OAuth is an open-standard authorization protocol that shares designated access between applications.
+You can tell Google it's OK to share info of your profile to create an account on another website. OAuth uses API tokens to verify access between you and a service provider. An API token is a small block of encrypted code that contains information about a user. These tokens contain things like your identity, site permissions, and more
 
 - Authentication: "Who are you?"
   1. Knowledge: Something user known.
