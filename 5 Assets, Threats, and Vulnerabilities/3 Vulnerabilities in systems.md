@@ -7,6 +7,9 @@
 
 "Zero-day" = zero days to fix it!
 
+Notes: Updates are important, it is recommended to use automatic updates whenever they are available.
+Also watch out for end-of-life software and upgrade them. There are big vulnerabilities from EOL software.
+
 ## CI/CD process vulnerabilities
 - Risks from Third-Party Code: Regularly scan and update your dependencies. Make sure you’re using secure versions of all external components.
 - Misconfigured Permissions: Controlling Access. Ensure only authorized individuals can access and change critical pipeline elements.
