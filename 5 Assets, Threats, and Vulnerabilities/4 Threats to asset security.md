@@ -67,7 +67,7 @@ Cryptojacking malware to mine crypto is common too. Signs of cryptojacking:
 ### SQL injection
 
 - In-band: Same communication channel to launch attack & gather results.
-- Out-of-band: Different communication channels, e.g. somehow getting their own server / DB involved.
+- Out-of-band: Different communication channels, e.g. somehow getting their own server / DB involved. Very uncommon, only work when certain features are enabled on the target server..
 - Inferential: Not directly retrieving data, but can see effect by behaviour changes (e.g. errors).
 
 ### SQL injection prevention
@@ -98,6 +98,14 @@ Identifying assets, their vulnerabilities, and how each is exposed to threats. T
 7. Analyse risk and impact
 
 There's also "Trike", "VAST" (Visual, Agile, Simple Threat), "STRIDE" (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege).
+
+One of the keys to threat modeling is asking the right questions:
+
+What are we working on?
+What kinds of things can go wrong?
+What are we doing about it?
+Have we addressed everything?
+Did we do a good job?
 
 ## Feedback
 
