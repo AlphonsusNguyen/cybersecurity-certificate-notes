@@ -10,7 +10,7 @@
 ### Signs of an attack
 
 1. Baiting (e.g. leaving a USB)
-2. Phishing
+2. Phishing (Spear phishing, Voice phishing (Vishing), SMS phishing (smishing), Page hijacking, QR code phishing, Man-in-the-Middle phishing)
 3. Quid pro quo (e.g. provide details, get X. Might not be intentional)
 4. Tailgating (as in, through a physical barrier(?))
 5. Watering hole (e.g. targeted malware on a niche site)
@@ -60,10 +60,10 @@ Cryptojacking malware to mine crypto is common too. Signs of cryptojacking:
 ## Web exploits
 
 - XSS (Cross-site scripting): Injection attack that inserts code into a vulnerable site. Types:
-  - Reflected: Sent to server, activated during response (e.g. storing JS in a random field)
-  - Stored: Injected directly on the server.
-  - DOM-based: Exists in the webpage, doesn't need to be sent (e.g. ?loadfrom=).
-
+  + Reflected: Sent to server, activated during response (e.g. storing JS in a random field)
+  + Stored: Injected directly on the server.
+  + DOM-based: Exists in the webpage, doesn't need to be sent (e.g. ?loadfrom=).
+Session hijacking: attacker modifies the parameters of a URL or uses a tool to send crafted HTTP requests to a web application, bypassing authentication and gaining unauthorized access to another user's session
 ### SQL injection
 
 - In-band: Same communication channel to launch attack & gather results.
