@@ -71,4 +71,4 @@ Examples: Open EDR, Bitdefender EDR, Forti EDR
 
 ## SOAR (Security orchestration, automation, response)
 
-Automated analysis and response to security events and incidents. SIEM collects & reports, SOAR can track & manage.
+Automated analysis and response to security events and incidents. SIEM collects & analyze data, SOAR can track & manage, use automation to respond to security .
