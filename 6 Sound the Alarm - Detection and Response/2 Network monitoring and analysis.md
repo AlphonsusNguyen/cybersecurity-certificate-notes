@@ -1,6 +1,6 @@
 ## Network
 
-- IoC: Indicators of compromise, observable evidence that there may have been a security incident
+- IoC: Indicators of compromise, observable evidence that there may have been a security incident. IOC helps security analysts detect network traffic abnormalities by providing a way to identify an attack
 - Data exfiltration: Unauthorized transmission of data from a system
 - Network _traffic_: Amount of data that moves across network.
 - Network _data_: The data itself.
@@ -10,6 +10,14 @@
 - Flow analysis: Monitoring if any unusual ports / packets / protocols are in use.
 - Packet payload info: Orgs might look inside packets at the actual data.
 - Temporal patterns: Is data transferred inside typical working hours?
+
+## Security professionals use network traffic analysis:
+ - To understand network traffic patterns
+ - To monitor network activity
+- To identify malicious activity
+
+
+1 point
 
 ## Defensive measures
 
