@@ -5,6 +5,7 @@
 - Network _traffic_: Amount of data that moves across network.
 - Network _data_: The data itself.
 
+*Reminder: Packets contain three components: the header, the payload, and the footer.
 ## Monitoring
 
 - Flow analysis: Monitoring if any unusual ports / packets / protocols are in use.
@@ -16,9 +17,6 @@
  - To monitor network activity
 - To identify malicious activity
 
-
-1 point
-
 ## Defensive measures
 
 - Prevent attacker access
@@ -26,8 +24,14 @@
 - Protect assets
 - Detect and stop exfiltration
 
-## Packet captures
 
+## Network protocol analyzers:
+use both software and hardware capabilities to capture network traffic and display it for security analysts to examine and analyze.
+- First, packets must be collected from the network via the Network Interface Card (NIC), which is hardware that connects computers to a network, like a router. NICs receive and transmit network traffic, but by default they only listen to network traffic that’s addressed to them. To capture all network traffic that is sent over the network, a NIC must be switched to a mode that has access to all visible network data packets, which is called monitoring mode or promiscous mode.
+- The network protocol analyzer collects the network traffic in raw binary format.
+- Enabling promiscuous can expose your device to potential attacks because it allows sensitive information like passwords and other confidential data to be captured
+  
+## Packet captures  
 "P-cap": Packet capture (unnecessary term, eh?)
 
 Can come in following formats (copied verbatim):
@@ -72,3 +76,11 @@ Can come in following formats (copied verbatim):
 - -i any: Interface to sniff on (any).
 - -v: Verbose
 - -c 1: Count, capture 1 packet
+  
+-i eth0: Capture data from the eth0 interface.
+-nn: Do not attempt to resolve IP addresses or ports to names.This is best practice from a security perspective, as the lookup data may not be valid. It also prevents malicious actors from being alerted to an investigation.
+-c9: Capture 9 packets of data and then exit.
+port 80: Filter only port 80 traffic. This is the default HTTP port.
+-w capture.pcap: Save the captured data to the named file.
+&: This is an instruction to the Bash shell to run the command in the background
+
