@@ -1,3 +1,23 @@
+## Why Python in your CI/CD
+DevSecOps. 'Development, Security, and Operations'
+  It can help:
+   - Increases Speed and Efficiency
+   - Finds Problems Early
+   - Remains Consistent
+   - Reduces workload  for Security Teams
+   - Supports a culture or security
+  Tasks:
+Security Testing 
+   - Static Application Security Testing (SAST)
+   - Dynamic Application Security Testing (DAST)
+   - Software Composition Analysis (SCA)
+Automated Vulnerability Scanning
+Compliance Checks
+Secrets Management Automation
+Policy Enforcement
+
+Using Python to Set Up Environments, Check Code Quality, and Secure Releases
+     
 ## Files
 
 ### Opening a file
