@@ -1,0 +1,43 @@
+##AI promt:
+Task
+Context
+Evaluate
+Iterate
+## Example about using AI for security framework:
+understanding of the NIST security control. 
+I'm a security analyst and I need help understanding control SI-5 in NIST 800-53 rev 5. 
+What does it ask me to do? How can I implement this control? And what enhancements should I consider adopting? 
+I'm not developing a federal system, but would like high levels of security, so the enhancements are not requirements per se, though they are desirable.
+## Understand system vulnerabilities with AI
+ - Ask for its recommendation about bugs in your code
+ Ask: I am a junior cybersecurity analyst, new to the field. I've recently become aware of the following vulnerabilities: Server-side request forgery, injection, cryptographic failures, and broken access control. 
+ Define what each of these are, identify their potential impact, and provide suggestions for immediate mitigation steps in case I encounter these issues in the future. 
+ Ask Gemini for sample interview questions about vulnerabilities. 
+
+ - Ask AI to write a reference guide on phishing emails and malware. Be comprehensive, keep neutral tone. Consider the audiences have no knowledge about cyber security. Include examples of common tactics used in phishing emails or a list of signs that a computer may be infected with malware. Keep it within 500 words.
+ Create content, like lists of cybersecurity best practices that members of your organization can reference.
+
+ - Analyze and summarize large amounts of information, like security reports.
+ - Answer questions you have about common cybersecurity threats.
+ - Simplify daily tasks, like determining whether an email shows signs of phishing.
+
+## Possible technical interview questions
+
+Python!!!!
+ - Mention your knowledge of specific NIST frameworks, such as the Cybersecurity Framework (CSF). Another technical concept for you to discuss during a technical interview is network security. You might recall that network security is the practice of keeping an organization’s network infrastructure secure from unauthorized access. 
+Every technical interview will be different, depending on the company and the interviewers. But here are a few possible technical interview questions to help you prepare: 
+
+What is the TCP/IP model? 
+
+The TCP/IP model  is a framework used to visualize how data is organized and transmitted across a network. 
+
+What is the OSI model?
+
+The OSI model stands for open systems interconnection (OSI) model. It is a standardized concept that describes the seven layers computers use to communicate and send data over the network. 
+
+What are SIEM tools and what are they used for? 
+
+SIEM tools are security information and event management tools that are used by security professionals to identify and analyze security threats, risks, and vulnerabilities. 
+
+##Ask clarifying question to get to the root of the problem and what the interviewer is expecting from you.
+If you don't know a question, say I don't know, but this is how I will approach the problem.
