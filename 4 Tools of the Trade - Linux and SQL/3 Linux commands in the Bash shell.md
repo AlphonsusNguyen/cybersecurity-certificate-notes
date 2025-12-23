@@ -8,6 +8,11 @@
 - `tail`: Display last 10 lines of file.
 - `less`: Display file contents in "pages".
 
+How do you use the file ans as an input to a program executed by ./prog ?
+  ./prog < ans
+How do you use the file otherans as input to a program executed by ./prog ?
+  cat otherans | ./prog
+  
 ## Standard FHS directories
 
 - `/home/x` = `~`: Each user has a home directory.
@@ -34,7 +39,9 @@
 - Command used to find files & directories that meet criteria.
 - E.g. `find /reports -name "users*"` finds all files starting with "users". `-iname` is case-insensitive version.
 - E.g. `find /reports -mtime -1` finds all files last modified under a day ago, whilst `+1` would find over a day ago. `mmin` is the same, but for minutes.
-
+Extra examples:
+find / -name  *secret* 2> /dev/null (find a file with secrect in name, dump error to black hole)
+echo /usr/bin/????  find a file with ???? character in name
 ### > & >>
 
 Similar to piping, angle brackets can send output into a file. `>` overwrites, `>>` appends.
@@ -93,6 +100,12 @@ Similar to piping, angle brackets can send output into a file. `>` overwrites, `
 - `whatis`: Provides a one-line summary of a command.
 - `apropos`: Search man docs by a term, can also call with `-a` for multiple terms.
 
+## Library:
+All the headers are in /usr/include
+definitions are in /usr/lib
+To view list of libraries:
+ls /usr/include > headers.txt
+ls /usr/lib > libraries.txt
 ## Feedback
 
 Lab is again excellent, requiring applying knowledge instead of explicitly stating what needs to be done. It's great that Reddit / Unix & Linux Stack Exchange are mentioned / linked, many courses skip the "real world" information finding.
